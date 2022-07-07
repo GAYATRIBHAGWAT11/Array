@@ -33,21 +33,68 @@ console.log(array.includes(6, 7));
 
 // includes only work in primitive dattypes not in reference datatype for eample
 
-let channels=[{
-    name:'apna college'
-    subscriber: 10000
-}, {
-    name:'apni kasksha'
-    subscriber: 10000
-}, {
-    name:'aman dhattrwal'
-    subscriber: 10000
-}]
-console.log(channels.includes({
-    name:'apni kasksha'
-    subscriber: 10000
-}));
+// let channels=[{
+//     name:'apna college'
+//     subscriber: 10000
+// }, {
+//     name:'apni kasksha'
+//     subscriber: 10000
+// }, {
+//     name:'aman dhattrwal'
+//     subscriber: 10000
+// }]
+// console.log(channels.includes({
+//     name:'apni kasksha'
+//     subscriber: 10000
+// }));
 
 // it exist still it is returning false bcz it doesn't work with refernece datatype
 
 
+let names1=["gayatri", "aishwarya", "ekta", "krutika", "niraja", "gayatri", "ekta" ]
+let names2=[1,2,3,4,5]
+
+console.log(names1.concat(names2));
+
+// slice=> removes value, slice(start, end)
+console.log(names1.slice(2,4));
+// return ekta and krutika
+
+// spread operator=> add arrays
+
+let names3=[...names1,...names2]
+console.log(names3);
+
+// for loop
+
+for(let i=0;i<names.length;i++){
+    console.log(names[i]);
+}
+
+
+// for of
+
+for(let name of names){
+    console.log(names);
+}
+
+// for each
+
+// names.forEach(function(names,index)){
+//     console.log(name, index);
+// }
+
+
+// join
+
+let student=['g','a','y', 'u']
+console.log(student.join('_'));
+
+// split
+
+// console.log(student.split('_'));
+
+
+// splice
+
+console.log(student.splice(0, 1));
