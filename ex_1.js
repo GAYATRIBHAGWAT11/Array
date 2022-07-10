@@ -34,8 +34,8 @@ console.log(array.includes(6, 7));
 // includes only work in primitive dattypes not in reference datatype for eample
 
 // let channels=[{
-//     name:'apna college'
-//     subscriber: 10000
+//     name:'rajnikant'
+//     age: 10000
 // }, {
 //     name:'apni kasksha'
 //     subscriber: 10000

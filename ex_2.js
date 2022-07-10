@@ -20,10 +20,10 @@ function nonRepeatingElement(inputArray){
     let length=inputArray.length;
     // console.log(length);
     for(let i=0;i<length;i++){
-        let j;
-        for( j=0;j<length;j++){
+         let j;
+        for(j=0;j<length;j++){
             if(i!=j && inputArray[i]==inputArray[j]){
-                console.log("true");
+                // console.log("true");
                 break;
             }
         }
